@@ -1,1 +1,1 @@
-const setupServer = () => {};
+export const setupServer = () => {};
