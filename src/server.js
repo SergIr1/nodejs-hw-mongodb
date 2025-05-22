@@ -7,10 +7,7 @@ import {
   getStudentByIdController,
   getAllStudentsController,
 } from './controllers/contacts.js';
-import {
-  middleware404,
-  middleware500,
-} from './middlewares/customMiddelware.js';
+import { middleware404, middleware500 } from './middlewares/middelware.js';
 // import mongoose from 'mongoose';
 
 const app = express();
